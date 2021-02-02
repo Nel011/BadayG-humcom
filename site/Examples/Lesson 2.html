@@ -4,9 +4,11 @@
         <title>Lesson 1: Elements</title>
         <meta name="author" content="G.Baday">
     </head>
-    <body>
+    <!--can change background color using bgcolor='#000'-->
+    <body background = "https://image.freepik.com/free-vector/black-gold-geometric-web-page-size-background_70155-229.jpg"><!--Smoke grey color-->
         <!-- <h1> is pre-formatted -->
         <!-- <h1> to <h6> -->
+        <font color=#fff>
         <h1>Heading lvl1</h1>
         <h2>Heading lvl2</h2>
         <h3>Heading lvl3</h3>
@@ -14,14 +16,12 @@
         <h5>Heading lvl5</h5>
         <h6>Heading lvl6</h6>
 
-        <P><h2>This paragraph tag is a block elemt tag</h2></P>
-        <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Voluptatum doloremque cupiditate id, accusamus quidem ab 
-            eveniet voluptate ipsa, dolorem alias vitae. Perspiciatis, 
-            voluptatem? Placeat, repudiandae illum mollitia possimus 
-            reprehenderit nulla.
-        </p>
+        <P><h2>This paragraph tag is a block element tag</h2></P>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Voluptatum doloremque cupiditate id, accusamus quidem ab 
+        eveniet voluptate ipsa, dolorem alias vitae. Perspiciatis, 
+        voluptatem? Placeat, repudiandae illum mollitia possimus 
+        reprehenderit nulla.</p>
 
         <!-- Ordered list -->
         <h2>Example of ordered list</h2>
@@ -77,13 +77,44 @@
             <li>Item 2</li>
             <li>Item 3</li>
         </ul>
-
-        <h2>Nested ordered list || same with unordered</h2>
-        <ol>
-            <li>Item 1</li>
-            <ol type="a">
-                <li>Item A</li>
+        <!-- Nested orderd & unordered list -->
+        <h2>Nested ordered list</h2>
+        <ol type="I">
+            <li>Intro to HTML</li>
+            <ol type="A">
+                <li>HTML Elements</li>
+                <ul type = "circle">
+                    <li>Lists</li>
+                    <li>Tables</li>
+                    <li>Links</li>
+                </ul>
             </ol>
         </ol>
+        <!--Definition list tag-->
+        <dl>
+            <dt>HTML</dt>
+                <dd>Hyper Text Markup Language</dd>
+            <dt>CSS</dt>
+                <dd>Cascading Stylesheet</dd>
+        </dl>
+        <!--Formating tags-->
+        <h2>Formating tags</h2>
+        <ul> 
+            <li><i>Italicized</i></li>
+            <li><b>Bold</b></li>
+            <li><strong>Strong</strong></li>
+            <li><em>Emphasis</em></li>
+            <li><u>Underlined</u></li>
+        </ul>
+        <ul>
+            <h3><center>Center formating tag</center></h3>
+        </ul>
+        <h2>Formating tags font face, color & size</h2><!--used the color above-->
+        <p><font face="Poppins" size= 5pt>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Voluptatum doloremque cupiditate id, accusamus quidem ab 
+            eveniet voluptate ipsa, dolorem alias vitae. Perspiciatis, 
+            voluptatem? Placeat, repudiandae illum mollitia possimus 
+            reprehenderit nulla.</font></p>
+        </font>
     </body>
 </html>
